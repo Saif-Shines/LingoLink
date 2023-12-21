@@ -14,10 +14,16 @@
   <h1>Pollyglot</h1>
   <h5>Perfect Translation Every Time</h5>
   <div class="border">
-    <h3>Text to translate 👇</h3>
     <form>
-      <label for="user-input"></label><br>
-      <input type="text" id="user-input">
+      <label for="user-input">Text to translate 👇</label><br>
+      <textarea name="" id="user-input" cols="30" rows="5"></textarea><br>
+      <label for="language" name="language">Choose languages:</label><br>
+      <select name="language" id="language">
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+      </select><br>
+      <button>Translate</button>
     </form>
   </div>
 </body>
