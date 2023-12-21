@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #32cd32;
+  font-family: Impact;
+  font-size: 43.419px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 65.129px */
+}
+
+h5 {
+  font-family: Poppins;
+  font-size: 12.212px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18.317px */
+}
