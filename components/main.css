@@ -17,7 +17,35 @@ h1 {
 
 h5 {
   font-family: Poppins;
+  color: #fff;
   font-style: normal;
   font-weight: 600;
   margin: 0.5rem;
+}
+
+.form-boundary {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 390px;
+  height: 505px;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.banner {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 213px;
+  background: #0d182e;
 }
