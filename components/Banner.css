@@ -1,0 +1,19 @@
+app-banner {
+  background-color: yellow;
+}
+
+h1 {
+  color: #32cd32;
+  font-family: Impact;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+}
+
+h5 {
+  font-family: Poppins;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0.5rem;
+}
