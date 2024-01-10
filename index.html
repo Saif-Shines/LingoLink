@@ -13,21 +13,23 @@
 <body>
   <template class="banner">
     <img src="./data/parrot.svg" alt="parrot logo">
-    <h1>Pollyglot</h1>
+    <h1>LingoLink</h1>
     <h5>Perfect Translation Every Time</h5>
   </template>
+
   <div class="form-boundary">
     <form>
       <label for="user-input">Text to translate 👇</label><br>
-      <textarea name="" id="user-input" cols="30" rows="5"></textarea><br>
+      <textarea name="" id="user-input" cols="30" rows="5" required></textarea><br>
       <label for="language" name="language">Choose languages:</label><br>
-      <select name="language" id="language">
+      <select name="language" id="language" required>
         <option value="english">English</option>
         <option value="spanish">Spanish</option>
         <option value="french">French</option>
       </select><br>
       <button>Translate</button>
     </form>
+    <p id="translation"></p>
   </div>
 </body>
 
