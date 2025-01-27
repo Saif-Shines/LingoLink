@@ -1,7 +1,5 @@
 # LingoLink
 
-## Description
-
 This project is a web application that leverages the power of vanilla JavaScript, HTML, and CSS to create an intuitive and user-friendly interface. The primary function of the app is to translate user input into English, French, and Spanish.
 
 The application utilizes GPT 3.5 Turbo, making calls to Language Models (LLMs) over Portkey. This ensures efficient and accurate translations. Additionally, the project uses Vite to substitute environment variables and to avoid Cross-Origin Resource Sharing (CORS) issues by using the Vite server proxy.
